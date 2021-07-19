@@ -1,2 +1,21 @@
-# PlayWithStrings
-Few coding problems related to strings.
+## PlayWithStrings
+
+Along with array and linked list data structures, a string is another popular topic of programming questions. A good thing about the string is that if you know the array, you can solve string-based questions easily because strings are nothing but a character array.
+
+So all the techniques you learn by solving array-based coding questions can be used to solve string programming questions as well.
+
+### Here is a list of few string coding questions with solutions.
+
+- How do you print duplicate characters from a string? (solution)
+- How do you check if two strings are anagrams of each other? (solution)
+- How do you print the first non-repeated character from a string? (solution)
+- How can a given string be reversed using recursion? (solution)
+- How do you check if a string contains only digits? (solution)
+- How are duplicate characters found in a string? (solution)
+- How do you count a number of vowels and consonants in a given string? (solution)
+- How do you count the occurrence of a given character in a string? (solution)
+- How do you find all permutations of a string? (solution)
+- How do you reverse words in a given sentence without using any library method? (solution)
+- How do you check if two strings are a rotation of each other? (solution)
+- How do you check if a given string is a palindrome? (solution)
+- These questions help improve your knowledge of string as a data structure. If you can solve all these String questions without any help then you are in good shape.
