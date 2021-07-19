@@ -6,7 +6,7 @@ So all the techniques you learn by solving array-based coding questions can be u
 
 ### Here is a list of few string coding questions with solutions.
 
-- How do you print duplicate characters from a string? (solution)
+- How do you get duplicate characters from a string ? (solution -> `GetDuplicateCharacters(string text): List <char>`)
 - How do you check if two strings are anagrams of each other? (solution)
 - How do you print the first non-repeated character from a string? (solution)
 - How can a given string be reversed using recursion? (solution)
