@@ -6,9 +6,14 @@ namespace PlayWithStrings
     {
         static void Main()
         {
-            string text = "this is a shitty piggy chop";
-            var repeated = StringsProblemSolutions.GetDuplicateCharacters(text.ToLower());
-            Console.WriteLine("Repeated characters are: {0}", string.Join(", ", repeated));
+            // string text = "this is a shitty piggy chop";
+            // var repeated = StringsProblemSolutions.GetDuplicateCharacters(text.ToLower());
+            // Console.WriteLine("Repeated characters are: {0}", string.Join(", ", repeated));
+
+            string first = "i love ety";
+            string second = "love i ety";
+
+            Console.WriteLine("Are strings anagrams ? {0}", StringsProblemSolutions.AreAnagrams(first, second));
         }
     }
 }
