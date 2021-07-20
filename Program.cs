@@ -15,8 +15,8 @@ namespace PlayWithStrings
 
             Console.WriteLine("Are strings anagrams ? {0}", StringsProblemSolutions.AreAnagrams(first, second));
 
-            // string text = "890098";
-            // Console.WriteLine("Is the string a palindrome ? {0}", StringsProblemSolutions.IsPalindrome(text));
+            string text = "890098";
+            Console.WriteLine("Is the string a palindrome ? {0}", StringsProblemSolutions.IsPalindrome(text));
         }
     }
 }

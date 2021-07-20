@@ -4,6 +4,22 @@ namespace PlayWithStrings
 {
     public class StringsProblemSolutions
     {
+        public static bool IsPalindrome(string text)
+        {
+            string buffer = text.ToLower();
+            int front = 0;
+            int rear = buffer.Length - 1;
+            while (front < rear)
+            {
+                if (buffer[front] != buffer[rear])
+                {
+                    return false;
+                }
+                front++;
+                rear--;
+            }
+            return true;
+        }
         public static bool AreAnagrams(string first, string second)
         {
             if (first == null || second == null)
