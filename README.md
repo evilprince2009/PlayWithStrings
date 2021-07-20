@@ -8,7 +8,7 @@ So all the techniques you learn by solving array-based coding questions can be u
 
 - How do you get duplicate characters from a string ? (solution -> `GetDuplicateCharacters(string text): List <char>`)
 - How do you check if two strings are anagrams of each other ? (solution -> `AreAnagrams(string first, string second): bool`)
-- How do you print the first non-repeated character from a string? (solution)
+- How do you print the first non-repeated character from a string ? (solution -> `FirstNonRepeatedCharacter(string text): char`)
 - How can a given string be reversed using recursion? (solution)
 - How do you check if a string contains only digits? (solution)
 - How are duplicate characters found in a string? (solution)

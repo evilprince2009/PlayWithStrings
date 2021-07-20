@@ -17,6 +17,9 @@ namespace PlayWithStrings
 
             string text = "890098";
             Console.WriteLine("Is the string a palindrome ? {0}", StringsProblemSolutions.IsPalindrome(text));
+
+            string rep = "repeated text";
+            Console.WriteLine("Repeated characters are: {0}", StringsProblemSolutions.FirstNonRepeatedCharacter(rep));
         }
     }
 }

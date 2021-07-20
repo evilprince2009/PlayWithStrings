@@ -1,9 +1,33 @@
+using System;
 using System.Collections.Generic;
 
 namespace PlayWithStrings
 {
     public class StringsProblemSolutions
     {
+        public static char FirstNonRepeatedCharacter(string text)
+        {
+            var buffer = new Dictionary<char, int>();
+            foreach (var ch in text)
+            {
+                if (!buffer.ContainsKey(ch))
+                {
+                    buffer[ch] = 1;
+                }
+                else
+                {
+                    buffer[ch]++;
+                }
+            }
+            foreach (var ch in text)
+            {
+                if (buffer[ch] == 1)
+                {
+                    return ch;
+                }
+            }
+            return char.MinValue;
+        }
         public static bool IsPalindrome(string text)
         {
             string buffer = text.ToLower();
