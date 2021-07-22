@@ -22,6 +22,9 @@ namespace PlayWithStrings
             Console.WriteLine("Repeated characters are: {0}", StringsProblemSolutions.FirstNonRepeatedCharacter(rep));
 
             Console.WriteLine(StringsProblemSolutions.AreDigits("87687999"));
+
+            var duplicate = StringsProblemSolutions.FindDuplicateChars(first);
+            Console.WriteLine("Duplicate characters are: {0}", string.Join(", ", duplicate));
         }
     }
 }

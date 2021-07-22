@@ -1,12 +1,33 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading;
 using System.Threading.Channels;
 
 namespace PlayWithStrings
 {
     public class StringsProblemSolutions
     {
+        public static List<char> FindDuplicateChars(string text)
+        {
+            List<char> result = new();
+            if (text.Length == 0)
+            {
+                return result;
+            }
+            char[] chars = text.ToCharArray();
+            for (int inner = 0; inner < chars.Length; inner++)
+            {
+                for (int outer = inner + 1; outer < chars.Length; outer++)
+                {
+                    if (chars[inner] == chars[outer])
+                    {
+                        result.Add(chars[inner]);
+                    }
+                }
+            }
+            return result;
+        }
         public static bool AreDigits(string text)
         {
             if (text == null) return false;

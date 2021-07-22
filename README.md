@@ -11,7 +11,7 @@ So all the techniques you learn by solving array-based coding questions can be u
 - How do you print the first non-repeated character from a string ? (solution -> `FirstNonRepeatedCharacter(string text): char`)
 - How can a given string be reversed without concatenation ? (solution -> `Reverse(string text): string`)
 - How do you check if a string contains only digits? (solution -> `AreDigits(string text): bool`)
-- How are duplicate characters found in a string? (solution)
+- How are duplicate characters found in a string? (solution -> `FindDuplicateChars(string text): List<char>`)
 - How do you count a number of vowels and consonants in a given string? (solution)
 - How do you count the occurrence of a given character in a string? (solution)
 - How do you find all permutations of a string? (solution)
