@@ -7,10 +7,20 @@ namespace PlayWithStrings
 {
     public class StringsProblemSolutions
     {
+        public static bool AreDigits(string text)
+        {
+            if (text == null) return false;
+
+            foreach (char ch in text)
+            {
+                if (!char.IsDigit(ch)) return false;
+            }
+            return true;
+        }
         public static string Reverse(string text)
         {
             Stack<char> buffer = new();
-            foreach (var ch in text)
+            foreach (char ch in text)
             {
                 buffer.Push(ch);
             }

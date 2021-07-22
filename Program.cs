@@ -21,7 +21,7 @@ namespace PlayWithStrings
             string rep = "repeated text";
             Console.WriteLine("Repeated characters are: {0}", StringsProblemSolutions.FirstNonRepeatedCharacter(rep));
 
-            Console.WriteLine(StringsProblemSolutions.Reverse(first));
+            Console.WriteLine(StringsProblemSolutions.AreDigits("87687999"));
         }
     }
 }
