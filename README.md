@@ -9,7 +9,7 @@ So all the techniques you learn by solving array-based coding questions can be u
 - How do you get duplicate characters from a string ? (solution -> `GetDuplicateCharacters(string text): List <char>`)
 - How do you check if two strings are anagrams of each other ? (solution -> `AreAnagrams(string first, string second): bool`)
 - How do you print the first non-repeated character from a string ? (solution -> `FirstNonRepeatedCharacter(string text): char`)
-- How can a given string be reversed using recursion? (solution)
+- How can a given string be reversed without concatenation ? (solution `Reverse(string text): string`)
 - How do you check if a string contains only digits? (solution)
 - How are duplicate characters found in a string? (solution)
 - How do you count a number of vowels and consonants in a given string? (solution)
@@ -18,4 +18,9 @@ So all the techniques you learn by solving array-based coding questions can be u
 - How do you reverse words in a given sentence without using any library method? (solution)
 - How do you check if two strings are a rotation of each other ? (solution)
 - How do you check if a given string is a palindrome? (solution -> `IsPalindrome(string text): bool`)
-- These questions help improve your knowledge of string as a data structure. If you can solve all these String questions without any help then you are in good shape.
+
+These questions help improve your knowledge of string as a data structure. If you can solve all these String questions without any help then you are in good shape.
+
+### For solutions check out the the method in Code file with the same name as the question.
+
+### ⚡⚡ [Ibne Nahian](https://www.facebook.com/evilprince2009) ⚡⚡

@@ -1,10 +1,28 @@
 using System;
 using System.Collections.Generic;
+using System.Text;
+using System.Threading.Channels;
 
 namespace PlayWithStrings
 {
     public class StringsProblemSolutions
     {
+        public static string Reverse(string text)
+        {
+            Stack<char> buffer = new();
+            foreach (var ch in text)
+            {
+                buffer.Push(ch);
+            }
+
+            StringBuilder result = new();
+            while (buffer.Count != 0)
+            {
+                result.Append(buffer.Pop());
+            }
+
+            return result.ToString();
+        }
         public static char FirstNonRepeatedCharacter(string text)
         {
             var buffer = new Dictionary<char, int>();
