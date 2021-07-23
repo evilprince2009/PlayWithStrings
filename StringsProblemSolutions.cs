@@ -4,6 +4,10 @@ namespace PlayWithStrings
 {
     public class StringsProblemSolutions
     {
+        public static bool AreRotations(string  first, string second)
+        {
+            return (first.Length == second.Length) && ((first + second).IndexOf(second) != -1);
+        }
         public static List<char> FindDuplicateChars(string text)
         {
             List<char> result = new();

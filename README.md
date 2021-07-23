@@ -16,7 +16,7 @@ So all the techniques you learn by solving array-based coding questions can be u
 - How do you count the occurrence of a given character in a string? (solution)
 - How do you find all permutations of a string? (solution)
 - How do you reverse words in a given sentence without using any library method? (solution)
-- How do you check if two strings are a rotation of each other ? (solution)
+- How do you check if two strings are a rotation of each other ? (solution -> `AreRotations(string first, string second): bool`)
 - How do you check if a given string is a palindrome? (solution -> `IsPalindrome(string text): bool`)
 
 These questions help improve your knowledge of string as a data structure. If you can solve all these String questions without any help then you are in good shape.
