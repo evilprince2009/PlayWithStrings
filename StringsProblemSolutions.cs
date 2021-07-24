@@ -1,11 +1,28 @@
 using System.Text;
 using System.Collections.Generic;
 using System;
+using System.Linq;
 
 namespace PlayWithStrings
 {
     public class StringsProblemSolutions
     {
+        public static string ReverseWords(string text)
+        {
+            if (text == null) throw new ArgumentException("Null is not a valid  Argument for this operation");
+            if (text == "") return "";
+            if (text.Length == 1) return text;
+            
+            List<string> container = text.Split(' ').ToList();
+            List<string> buffer = new();
+            
+            foreach (string word in container)
+            {
+                buffer.Add(Reverse(word));
+            }
+
+            return string.Join(" ", buffer);
+        }
         public static int PossiblePermutationCount(string text)
         {
             return (int)Math.Pow(2, text.Length);

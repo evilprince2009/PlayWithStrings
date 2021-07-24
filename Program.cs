@@ -30,6 +30,8 @@ namespace PlayWithStrings
 
             text = "abc";
             Console.WriteLine("Possible permutation numbers is: {0}", StringsProblemSolutions.PossiblePermutationCount(text));
+            text = "i love you";
+            Console.WriteLine(StringsProblemSolutions.ReverseWords(text));
         }
     }
 }
