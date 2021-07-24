@@ -1,9 +1,15 @@
 using System.Text;
 using System.Collections.Generic;
+using System;
+
 namespace PlayWithStrings
 {
     public class StringsProblemSolutions
     {
+        public static int PossiblePermutationCount(string text)
+        {
+            return (int)Math.Pow(2, text.Length);
+        }
         public static int CharacterOccurance(string text, char character)
         {
             int count = 0;

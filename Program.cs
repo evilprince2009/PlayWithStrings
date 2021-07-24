@@ -27,6 +27,9 @@ namespace PlayWithStrings
             // Console.WriteLine("Duplicate characters are: {0}", string.Join(", ", duplicate));
 
             Console.WriteLine(StringsProblemSolutions.CharacterOccurance(text, 'p'));
+
+            text = "abc";
+            Console.WriteLine("Possible permutation numbers is: {0}", StringsProblemSolutions.PossiblePermutationCount(text));
         }
     }
 }
