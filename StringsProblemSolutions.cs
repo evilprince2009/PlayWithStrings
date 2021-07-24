@@ -4,6 +4,18 @@ namespace PlayWithStrings
 {
     public class StringsProblemSolutions
     {
+        public static int CharacterOccurance(string text, char character)
+        {
+            int count = 0;
+            for (int i = 0; i < text.Length; i++)
+            {
+                if (text[i] == character)
+                {
+                    count++;
+                }
+            }
+            return count;
+        }
         public static bool AreRotations(string  first, string second)
         {
             return (first.Length == second.Length) && ((first + second).IndexOf(second) != -1);
