@@ -14,7 +14,7 @@ So all the techniques you learn by solving array-based coding questions can be u
 - How are duplicate characters found in a string ? (solution -> `FindDuplicateChars(string text): List<char>`)
 - How do you count a number of vowels and consonants in a given string ? (solution -> `CountVowels(string text): int`)
 - How do you count the occurrence of a given character in a string ? (solution -> `CharacterOccurance(string text, char character): int`)
-- How do you find all permutations of a string ? (solution -> `ossiblePermutationCount(string text): int`)
+- How do you find all permutations of a string ? (solution -> `PossiblePermutationCount(string text): int`)
 - How do you reverse words in a given sentence ? (solution -> `ReverseWords(string text): string`)
 - How do you check if two strings are a rotation of each other ? (solution -> `AreRotations(string first, string second): bool`)
 - How do you check if a given string is a palindrome? (solution -> `IsPalindrome(string text): bool`)
