@@ -175,14 +175,27 @@ namespace PlayWithStrings
             return true;
         }
 
+        public static int CountConsonants(string text)
+        {
+            int count = 0;
+            for (int i = 0; i < text.Length; i++)
+            {
+                if (IsConsonant(text[i]))
+                {
+                    ++count;
+                }
+            }
+            return count;
+        }
+
         public static int CountVowels(string text)
         {
             int count = 0;
-             for (int i = 0; i < text.Length; i++)
-             {
-                 if (text[i] == 'a' || text[i] == 'e' || text[i] == 'i' || text[i] == 'o' || text[i] == 'u')
-                 {
-                     count++;
+            for (int i = 0; i < text.Length; i++)
+            {
+                if (IsVowel(text[i]))
+                {
+                    ++count;
                 }
             }
             return count;
@@ -211,6 +224,17 @@ namespace PlayWithStrings
                 }
             }
             return result;
+        }
+
+        private static bool IsConsonant(char letter)
+        {
+            letter = Char.ToUpper(letter);
+            return !(letter == 'A' || letter == 'E' || letter == 'I' || letter == 'O' || letter == 'U') && letter >= 65 && letter <= 90;
+        }
+        private static bool IsVowel(char letter)
+        {
+            letter = Char.ToUpper(letter);
+            return (letter == 'A' || letter == 'E' || letter == 'I' || letter == 'O' || letter == 'U');
         }
     }
 }

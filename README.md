@@ -12,7 +12,7 @@ So all the techniques you learn by solving array-based coding questions can be u
 - How can a given string be reversed without concatenation ? (solution -> `Reverse(string text): string`)
 - How do you check if a string contains only digits ? (solution -> `AreDigits(string text): bool`)
 - How are duplicate characters found in a string ? (solution -> `FindDuplicateChars(string text): List<char>`)
-- How do you count a number of vowels and consonants in a given string ? (solution -> `CountVowels(string text): int`)
+- How do you count a number of vowels and consonants in a given string ? (solution -> `CountVowels(string text): int , CountConsonants(string text): int`)
 - How do you count the occurrence of a given character in a string ? (solution -> `CharacterOccurance(string text, char character): int`)
 - How do you find all permutations of a string ? (solution -> `PossiblePermutationCount(string text): int`)
 - How do you reverse words in a given sentence ? (solution -> `ReverseWords(string text): string`)
