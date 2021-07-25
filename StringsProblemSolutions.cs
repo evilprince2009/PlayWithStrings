@@ -8,18 +8,7 @@ namespace PlayWithStrings
     
     public class StringsProblemSolutions
     {
-        public static int CountVowels(string text)
-        {
-            int count = 0;
-             for (int i = 0; i < text.Length; i++)
-             {
-                 if (text[i] == 'a' || text[i] == 'e' || text[i] == 'i' || text[i] == 'o' || text[i] == 'u')
-                 {
-                     count++;
-                }
-            }
-        return count;
-    }
+        
         public static string ReverseWords(string text)
         {
             if (text == null) throw new ArgumentException("Null is not a valid  Argument for this operation");
