@@ -174,6 +174,19 @@ namespace PlayWithStrings
             }
             return true;
         }
+
+        public static int CountVowels(string text)
+        {
+            int count = 0;
+             for (int i = 0; i < text.Length; i++)
+             {
+                 if (text[i] == 'a' || text[i] == 'e' || text[i] == 'i' || text[i] == 'o' || text[i] == 'u')
+                 {
+                     count++;
+                }
+            }
+            return count;
+        }
         public static List <char> GetDuplicateCharacters(string text)
         {
             IDictionary <char, int> buffer = new Dictionary <char, int>();
