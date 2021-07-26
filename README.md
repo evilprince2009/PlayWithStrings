@@ -4,7 +4,7 @@ Along with array and linked list data structures, a string is another popular to
 
 So all the techniques you learn by solving array-based coding questions can be used to solve string programming questions as well.
 
-### Here is a list of few string coding questions with solutions.
+### Here is a list of few string coding questions with solutions
 
 - How do you get duplicate characters from a string ? (solution -> `GetDuplicateCharacters(string text): List <char>`)
 - How do you check if two strings are anagrams of each other ? (solution -> `AreAnagrams(string first, string second): bool`)
