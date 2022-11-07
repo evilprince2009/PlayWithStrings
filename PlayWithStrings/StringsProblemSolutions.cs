@@ -2,10 +2,8 @@ using System.Text;
 
 namespace PlayWithStrings
 {
-    
     public class StringsProblemSolutions
-    {
-        
+    { 
         public static string ReverseWords(string text)
         {
             if (text == null) throw new ArgumentException("Null is not a valid  Argument for this operation");
@@ -19,7 +17,6 @@ namespace PlayWithStrings
             {
                 buffer.Add(Reverse(word));
             }
-
             return string.Join(" ", buffer);
         }
         public static int PossiblePermutationCount(string text)
@@ -40,7 +37,7 @@ namespace PlayWithStrings
         }
         public static bool AreRotations(string  first, string second)
         {
-            return (first.Length == second.Length) && ((first + second).IndexOf(second) != -1);
+            return (first.Length == second.Length) && ($"{first}{second}".IndexOf(second) != -1);
         }
         public static List<char> FindDuplicateChars(string text)
         {
@@ -138,34 +135,34 @@ namespace PlayWithStrings
             {
                 return false;
             }
-            IDictionary <char, int> firstDictionary = new Dictionary<char, int>();
-            IDictionary <char, int> secondDictionary = new Dictionary<char, int>();
+            IDictionary <char, int> first_dictionary = new Dictionary<char, int>();
+            IDictionary <char, int> second_dictionary = new Dictionary<char, int>();
             foreach (char character in first)
             {
-                if (firstDictionary.ContainsKey(character))
+                if (first_dictionary.ContainsKey(character))
                 {
-                    firstDictionary[character]++;
+                    first_dictionary[character]++;
                 }
                 else
                 {
-                    firstDictionary.Add(character, 1);
+                    first_dictionary.Add(character, 1);
                 }
             }
             foreach (char character in second)
             {
-                if (secondDictionary.ContainsKey(character))
+                if (second_dictionary.ContainsKey(character))
                 {
-                    secondDictionary[character]++;
+                    second_dictionary[character]++;
                 }
                 else
                 {
-                    secondDictionary.Add(character, 1);
+                    second_dictionary.Add(character, 1);
                 }
             }
-            foreach (KeyValuePair<char, int> character in firstDictionary)
+            foreach (KeyValuePair<char, int> character in first_dictionary)
             {
-                if (!secondDictionary.ContainsKey(character.Key) ||
-                    character.Value != secondDictionary[character.Key])
+                if (!second_dictionary.ContainsKey(character.Key) ||
+                    character.Value != second_dictionary[character.Key])
                 {
                     return false;
                 }
